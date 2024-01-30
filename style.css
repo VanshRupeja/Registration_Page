@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body .header{
+    display:flex;
+    align-items:center;
+    border-radius:5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.437);
+    background-color:rgba(255, 255, 255, 0.799);
+    position:absolute;
+}
+.header h2{
+    margin-right:700px;
+    margin-left:50px;
+}
+.header span{
+    margin-right:50px;
+}
+video{
+    height:100%;
+    width:100%;
+    border:none;
+    border-radius:2px;
+    z-index:-1;
+    object-fit:cover;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.signup{
+    position:absolute;
+    top:10%;
+    left:20%;
+    background-color:rgba(255, 255, 255, 0.295);
+    border-radius:14px;
+    backdrop-filter:blur(20px);
+    border:0.2 solid rgba(187, 186, 186, 0.443);
+    height:80%;
+    width:50%;;
+    text-align:center;
+    align-items:center;
+
+}
+.form{
+    display:block;
+  
+}
+.form input{
+    font-size:30px;
+    border:2px solid #999;
+    border-radius:4px;
+    margin:50px;
+    
+    width:80%;
+    height:200%;
+    background:transparent;
+    padding:0 10px;
+    display:block;
+
+
+}
+.form input:focus{
+    border-color:orange;
+}
+#username{
+    position:absolute;
+    top:95px;
+    left:60px;
+    background:transparent;
+    padding:0 10px;
+    font-size:25px;
+    transition:.3s all ease;
+    font-family:sans-serif;
+    color:rgb(113, 122, 57);
+}
+#email{
+    position:absolute;
+    top:180px;
+    left:60px;
+    background:transparent;
+    padding:0 10px;
+    font-size:25px;
+    transition:.3s all ease;
+    font-family:sans-serif;
+    color:rgb(113, 122, 57);
+}
+#pass{
+    position:absolute;
+    top:270px;
+    left:60px;
+    background:transparent;
+    padding:0 10px;
+    font-size:25px;
+    transition:.3s all ease;
+    font-family:sans-serif;
+    color:rgb(113, 122, 57);
+}
+.form input:focus +  #username,.form input:valid +  #username{
+    font-size:22px;
+    top:60px;
+    border:none;
+    
+
+}
+.form input:focus + #username{
+    color:black;
+    
+  
+    
+}
+.form input:focus +  #pass,.form input:valid +  #pass{
+    font-size:22px;
+    top:240px;
+    border:none;
+
+}
+.form input:focus + #pass{
+    color:black;
+    
+}
+.form input:focus +  #email,.form input:valid +  #email{
+    font-size:22px;
+    top:150px;
+    border:none;
+
+}
+.form input:focus + #email{
+    color:black;
+    
+}
+button{
+    border:2px solid black;
+    background-color:yellow;
+    border-radius: 10px;
+    transition:all ease .3s;
+    height:40px;
+    margin:20px 0;
+    width:220px;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover{
+    height:50px;
+    box-shadow:0px 10px 2px black;
+   
+}
+button:active{
+    transform:scale(0.9,0.9);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <video loop autoplay muted id="myVideo">
+        <source src="istockphoto-622271416-640_adpp_is.mp4" type="video/mp4">
+    </video>
+
+    <div class="page1">
+        <form method ="post" action="/register" style="text-align:left">
+        <div class="signup">
+            <h1>Registration </h1>
+            <div class="form">
+            
+                <div class="uname">
+                
+                <input type="name" id="user"  name= "name" required>
+                <label for="username" id="username">Username</label>
+                </div>
+                
+                <div class="email">
+                
+                <input type="email" name="email" required >
+                <label for="email" id="email">Email</label>
+                </div>
+                
+                <div class="pass">
+                
+                <input type="password" name="password" required>
+                <label for="password" id="pass">Password</label>
+                </div>
+
+                <button type="submit">Register</button>
+            </div>
+            
+        </div>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
