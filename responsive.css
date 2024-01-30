@@ -1,0 +1,113 @@
+@media screen and (max-width:767px){
+
+  
+    body .header{
+        
+        align-items:center;
+        border-radius:5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.437);
+        background-color:rgb(255, 255, 255);
+        position:absolute;
+        font-size:13px;
+        width:100%;
+        height:20px;
+    }
+    .header h2{
+        margin-right:10px;
+        margin-left:20px;
+    }
+    .header span{
+        margin-right:10px;
+        
+    }
+    video{
+    
+        height:700px;
+        width:320px;
+        margin-right:0px;
+        
+        border:none;
+        border-radius:2px;
+        z-index:-1;
+        object-fit:cover;
+        position:absolute;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    
+    
+    .signup{
+        position:absolute;
+        top:25%;
+        left:15%;
+        background-color:rgb(255, 255, 255);
+        border-radius:14px;
+        backdrop-filter:blur(10px);
+        border:0.2 solid rgba(187, 186, 186, 0.443);
+        height:250px;
+        width:250px;
+        text-align:center;
+        align-items:center;
+        z-index:2;
+    
+    }
+    .form{
+        display:block;
+    
+    }
+    .form input{
+        font-size:15px;
+        border:2px solid #999;
+        border-radius:4px;
+        margin:0 10px;
+        width:200px;
+        height:40px;
+    
+        padding:0 10px;
+    
+    }
+    .form input:focus{
+        border-color:blue;
+    }
+    .form label{
+        position:absolute;
+        top:90px;
+        left:40px;
+        background:#fff;
+        padding:0 10px;
+        font-size:15px;
+        transition:.3s all ease;
+        font-family:sans-serif;
+        border-radius:2px;
+    }
+    .form input:focus + label{
+        font-size:14px;
+        top:73px;
+        border:none;
+    
+    }
+    .form input:focus + label{
+        color:blue;
+        
+    }
+    button{
+        border:2px solid black;
+        background-color:yellow;
+        border-radius: 20px;
+        transition:all ease .3s;
+        height:30px;
+        margin:20px 0;
+        width:60px;
+    
+    
+    }
+    button:hover{
+        height:50px;
+       
+    }
+    button:active{
+        background-color:red;
+    }
+    
+}
